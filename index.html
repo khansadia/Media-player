@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Media player</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header  -->
+      <header>
+        <div class="flex">
+          <span class="material-icons">arrow_back_ios</span>
+          <h3>Playlist-Moody</h3>
+          <span class="material-icons">more_vert</span>
+        </div>
+      </header>
+      <!-- main  -->
+      <main>
+        <!-- section 1 / playlist  -->
+        <section class="playlist">
+          <div class="playlist-item" id="rocket">
+            <div class="song">
+              <img class="item-img" src="img-1.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">A Rocket to the moon</p>
+                <p class="song-name">Like we used to</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+          <div class="playlist-item">
+            <div class="song">
+              <img class="item-img" src="img-2.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">John Legend</p>
+                <p class="song-name">Save the room</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+          <div class="playlist-item">
+            <div class="song">
+              <img class="item-img" src="img-3.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">John Legend</p>
+                <p class="song-name">We just don't care</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+          <div class="playlist-item">
+            <div class="song">
+              <img class="item-img" src="img-4.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">A Rocket to the moon</p>
+                <p class="song-name">Dakota</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+          <div class="playlist-item">
+            <div class="song">
+              <img class="item-img" src="img-5.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">Zedd & Alone Blacc</p>
+                <p class="song-name">Candyman</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+          <div class="playlist-item">
+            <div class="song">
+              <img class="item-img" src="img-6.jpg" alt="" />
+              <div class="item-ifo">
+                <p class="songer">Rag'n'Bone Man</p>
+                <p class="song-name">Human</p>
+              </div>
+            </div>
+            <span class="material-icons">play_circle</span>
+          </div>
+        </section>
+
+        <!-- section 2/song image, songinfo, timeline och buttons  -->
+        <section class="play-section">
+            <img class="L-img" src="img-1-L.jpg" alt="">
+            <div class="played-song">
+                <span class="material-icons add">add_circle</span>
+                <div class="played-song-info">
+                    <p class="played-songer">A Rocket to the moon</p>
+                    <p class="played-song-name">Like we used to</p>
+                </div>
+                <span class="material-icons favorite">favorite</span>
+            </div>
+            <div class="timeline">
+                <span>0:40</span>
+                <div class="time-long">
+                    <div class="progress"></div>
+                </div>
+                <span>3:42</span>
+            </div>
+            <div class="control">
+              <span class="material-icons" id="repeat-btn">repeat</span>
+              <span class="material-icons" id="rewind-btn">fast_rewind</span>
+              <span class="material-icons" id="play-pause-btn">play_circle</span>
+              <span class="material-icons" id="forward-btn">fast_forward</span>
+              <span class="material-icons" id="shuffle-btn">shuffle</span>
+            </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
